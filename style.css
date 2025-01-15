@@ -78,6 +78,7 @@ nav li a{
   background-color:#FD6E0A ;
   margin-top: 20px;
   margin-right: 10px;
+  font-weight: bold;
 }
 .btn-call{
   font-weight: bold;
@@ -199,6 +200,7 @@ height: 400px;
   display: flex;
   justify-content: center;
   margin-top: -55px;
+  font-weight: bold;
 }
 .contact{
   display: flex;
