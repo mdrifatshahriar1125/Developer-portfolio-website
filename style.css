@@ -235,3 +235,14 @@ border: none;
 .icons{
   margin: 10px;
 }
+.btn-submit{
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color:#FD6E0A ;
+  margin-top: 20px;
+  margin-right: 10px;
+  font-weight: bolder;
+}
