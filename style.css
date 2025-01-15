@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.different-color{
+  color: #474747;
+}
+.nav-name {
+  color: black;
+  font-size: 45px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif,
+    "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+}
+.single-word {
+  color: tomato;
+}
+.nav-heads {
+  font-size: 20px;
+  /* text-decoration: none; */
+  list-style: none;
+  display: flex;
+  /* align-items: center; */
+  gap: 15px;
+}
+nav {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button {
+  margin: 5px;
+  color: white;
+  background-color: #FD6E0A;
+  width: 120px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  /* box-shadow: 0 4px 5px rgb(161, 156, 155); give just for my chose*/
+  font-size: 20px;
+}
+nav li a{
+ text-decoration: none;
+}
+.li-pb {
+  margin: 15px;
+  text-decoration: none;
+}
+.container{
+    /* width: 100%;*/
+    height: 537px; 
+    background-image: url(images/developer.png),url(images/header_bg.png);
+    background-size: 114px 537px,600px 300px  ;
+    background-position:top left ,bottom right;
+    background-repeat: no-repeat;
+}
+
+.box1{
+    width: 610px;
+    height: 300px;
+    /* background-color: blueviolet; */
+    /* margin-left: 200px; */
+    margin-top: 150px;
+    
+}
+.btn-cv{
+  width: 130px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color:#FD6E0A ;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.pragraph{
+ color:#474747 ;
+ padding-top: 30px;
+}
+.name1{
+  font-size: 45px;
+  font-width:bold;
+}
+.banner-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 90px 0 200px;
+}
+.images{
+   
+/* margin-top: 50px; */
+position: absolute;
+width: 384px;
+height: 481px;
+left: 978px;
+right: 38px;
+/* margin-right: 90px; */
+
+}
+.about{
+  margin: 100px auto;
+  width: 1000px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#FFF8F3;
+  /* box-shadow: 0 2px 3px ; here shadow property is not used */
+  /* justify-items: center;
+  align-items:normal; */
+}
+.inside-about{
+  width: 750px;
+  height: 180px;
+  background-color: white;
+  text-align: center;
+  /* justify-content: center; */
+  
+  
+}
+.info4{
+  margin-top: 20px;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  width: 750px;
+  height: 50px;
+  background-color: white;
+
+
+}
+.info{
+  text-align: center;
+}
+.pragraph3{
+  width: 800px;
+  margin: auto;
+  /* color: #757575; */
+}
+.extra{
+  color: #757575;
+
+}
+.four-card{
+  margin-top: 50px;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+.card{
+  width: 200px;
+  height: 250px;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: justify;
+  box-shadow: 0 4px 8px #dad7d6;
+}
+.margin-top{
+  margin-top: 70px;
+}
+.resume-info{
+  display: flex;
+  justify-content:center;
+  gap: 20px;
+  margin: 40px auto;
+
+
+}
+.resume-side{
+width: 510px;
+height: 400px;
+/* background-color: antiquewhite; */
+}
+.part{
+  width: 500px;
+  height: 110px;
+  /* background-color: aqua; */
+  margin-top: 10px;
+}
+.download-cv{
+  display: flex;
+  justify-content: center;
+  margin-top: -55px;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 100px ;
+  margin-top: 20px;
+  background-color: #FFF8F3;
+
+}
+.portion{
+  width: 500px;
+  height: 350px;
+  /* background-color: blue; */
+}
+.contact input{
+  margin-top: 15px;
+
+  width: 295px;
+  height: 40px;
+  color: black;
+  background-color: white;
+  border: none;
+}
+.contact textarea{
+margin-top:15px;
+border: none;
+}
+.contact-space{
+  margin-bottom: 15px;
+}
+.icons{
+  margin: 10px;
+}
